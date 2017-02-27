@@ -22,7 +22,7 @@ defmodule Mailman.Mixfile do
   defp deps do
     [
       { :iconv, "~> 1.0.0" },
-      { :gen_smtp, "~> 0.11.0" },
+      { :gen_smtp, github: "xaelectronics/gen_smtp" },
       { :ex_doc, ">= 0.11.4", only: :dev },
       { :earmark, ">= 0.0.0" },
       { :httpotion, "~> 3.0.0" },
